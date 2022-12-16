@@ -86,6 +86,42 @@ const Project = () => {
               </div>
             </div>
           </SwiperSlide>
+          <SwiperSlide className="w-50">
+            <div class="card rounded-5 border-0 swiper-slide">
+              <div class="card__image-content d-flex flex-column align-items-center p-4">
+                <span class="image-content__overlayFrst position-absolute start-0 top-0 w-100 h-100"></span>
+                <div class="image-content__image position-relative rounded">
+                  <img src="images/Screenshot 2022-12-15 153123.jpg" alt="Si Hotel" class="card-img" loading="lazy" />
+                </div>
+              </div>
+              <div class="card__body-content d-flex flex-column align-items-center p-4">
+                <h2 class="fs-5 fw-semibold text-dark">Car Rental</h2>
+                <p class="text-secondary text-center">Website ini dibuat dengan html dan css biasa untuk
+                  memenuhi tugas dari program kampus merdeka</p>
+                <a href="https://github.com/naufalasyraf/FinalProject1-NaufalAsyrafIdrisa" class="btn body-content__button border-0 text-white.">
+                  See
+                </a>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="w-50">
+            <div class="card rounded-5 border-0 swiper-slide">
+              <div class="card__image-content d-flex flex-column align-items-center p-4">
+                <span class="image-content__overlayFrst position-absolute start-0 top-0 w-100 h-100"></span>
+                <div class="image-content__image position-relative rounded">
+                  <img src="images/Screenshot 2022-12-15 161652.jpg" alt="Si Hotel" class="card-img" loading="lazy" />
+                </div>
+              </div>
+              <div class="card__body-content d-flex flex-column align-items-center p-4">
+                <h2 class="fs-5 fw-semibold text-dark">Weather</h2>
+                <p class="text-secondary text-center">Merupakan website tracking cuaca dengan api
+                  openwaether.org javascript</p>
+                <a href="https://github.com/naufalasyraf/final-project-4" class="btn body-content__button border-0 text-white.">
+                  See
+                </a>
+              </div>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </div>
     </div>
